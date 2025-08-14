@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import { DOMPurify } from 'dompurify';
+import DOMPurify from 'dompurify';
 import { JSDOM } from 'jsdom';
 import { logger } from '@/lib/winston';
 import Blog from '@/models/blog';
